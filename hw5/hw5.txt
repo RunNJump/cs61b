@@ -1,0 +1,35 @@
+
+HW #5.
+
+Question D.
+
+1. Theta(x**2)
+
+
+2. Theta(log x)
+
+
+3. Theta(x**2)
+
+
+4. Theta(N + M)
+
+
+5. Theta(nlog(n))
+
+
+6. log10(f(x)) = log10(b**(logb(f(x))))
+  = logb(f(x))*log10(b)
+  log10(b) = K
+
+
+7. log(p(x)) = log(a_nx**n+ a_(n-1)x**(n-1)+ ... a_0)
+ = log((a_nx**n)*(1 + (a_(n-1)/a_(n))x**(-1) + ... a_0)))
+ O(logp(x)) = O(log(a_nx**n)) = O(nlogx)
+
+
+
+8. f(n) <= [f(n)] <= f(n) + 1
+O(f(n)) = O(f(n)+1)
+By sandwich theorem,
+O([f(n)]) is also included O(f(n))
